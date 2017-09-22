@@ -1,0 +1,50 @@
+
+.textLabel{
+    background-color: #83d98a;
+    margin-top: 150px;
+    color: white;
+    font-size: 20px;
+    
+}
+.banner{
+    max-width: 100%;
+    background-color: #f2a4a4;
+    height: 600px;
+    background-image: url('stockbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.searchForm{
+    z-index: -5;
+    max-width: 100%;
+    padding: 25%;
+}
+
+input{
+  max-height: 2.5em;
+}
+
+  .navbar-nav {
+    width: 50%;
+    text-align: center;
+    margin-left: 50%;
+  }
+
+.square:hover{
+    background-color: #808080;
+    
+}
+.textLabel: hover{
+    display: block;
+}
+.square{
+    border-radius: 15px;
+    border: solid 1px grey;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.content{
+    padding: 80px;
+}
