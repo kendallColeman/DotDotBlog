@@ -30,7 +30,8 @@
     position: absolute;
     z-index: 1;
     max-width: 100%;
-    padding: 25%;
+    margin-top: 10%;
+    margin-left: 50%;
 }
 
 input[type="text"] {

@@ -1,17 +1,14 @@
 $(document).ready(function(){
           
-        $(".textLabel").hide();
+        $(".Label1").hide();
         $(".text").hide();
-        
+        $("#text").hide();
 
        $(".square").hover(function(){
             
-             $(".textLabel").show( //switch with rand
+             $(".Label1").show( //switch with rand
              $(this).addClass('.fadeIn').show);
+             $(".text").show();
         });
-                     
-                     
-                     
-                     )
 
 });
