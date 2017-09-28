@@ -7,9 +7,12 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+  <script src="weather.js"></script>
   <script src="hidestuff.js"></script>
   <link rel="stylesheet" href="DotBlog.css">
   <link rel="stylesheet" href="animate2.css">
+  <link rel="stylesheet" href="weather.css">
   
 </head>
 <body>
@@ -31,6 +34,8 @@
   </form>
 </div>
   <!--/search-->
+  <!--weather API-->
+    <div id="weather"></div>
 </div>
 <!--/Banner-->
 
@@ -62,7 +67,7 @@
 <!--Row1-->
 <div class="row">
 <div class="col-sm-12 col-md-4">
-<div class="square">
+<div class="square square1">
 <div class="textLabel Label1">
 <p class="text">this is the first box</p>
     </div>
@@ -70,7 +75,7 @@
 </div>
 
 <div class="col-sm-12 col-md-4">
-<div class="square">
+<div class="square square2">
 <div class="textLabel Label2">
 <p class="text">this is the second box</p>
     </div>
@@ -78,7 +83,7 @@
 </div>
 
 <div class="col-sm-12 col-md-4">
-<div class="square">
+<div class="square square3">
     <div class="textLabel Label3">
 <p class="text">this is the third box</p>
     </div>
@@ -129,6 +134,12 @@
 
 </div>
 <!--/Content Section-->
-
+<!--Footer Section-->
+<footer>
+<div class="footer-content">
+</div>
+<div class="footer-social">
+</div>
+</footer>
 </body>
 </html>
